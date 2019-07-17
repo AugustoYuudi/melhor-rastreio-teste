@@ -1,42 +1,40 @@
 <template>
     <div class="navbar">
-        <img src="../assets/img/Logo.png" alt="Brand Logo" class="navbar__logo">
-        // botao hamburger
+        <img src="../assets/img/Logo.png" alt="Brand Logo" class="navbar__logo" v-if="!this.menuIsActive">
 
-        <nav class="navbar__links navbar__links--toggled">
-            <ul>
-                <li>Login</li>
-                <li>Cadastre-se</li>
-                <li>Melhor Envio</li>
-            </ul>
-        </nav>
-
+        <NavbarMenu></NavbarMenu>
     </div>
-
-    
 </template>
 
 <style lang="stylus">
 .navbar
-    .navbar__links
-       position absolute
-       left 0
-       right 0
-       z-index 0
-       height 100%
-       width 100%
-       padding 2rem 
-
-       ul
-        padding 2rem 0 0 0
-        background-color tomato
-
-        li
-            border-bottom 1px solid rgba(255, 255, 255, 0.15)
+    max-width 100vw
+    width 100vw
+    // overflow hidden
+    .navbar__logo
+        margin 1rem 0 1rem 1rem
+        width 25vw
+        max-width 100px
 </style>
 
 <script>
+import NavbarMenu from '@/components/NavbarMenu'
+
 export default {
-    
+    components: {
+        NavbarMenu,
+    },
+
+    data() {
+        return {
+            menuIsActive: false,
+        }
+    },
+
+    methods: {
+        toggleMenu: function() {
+            this.menuIsActive = !this.menuIsActive
+        },
+    }
 }
 </script>
