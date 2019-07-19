@@ -20,8 +20,10 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
+    "rupture": "^0.7.1",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
+    "vue-cli-plugin-rupture": "^0.1.9",
     "vue-template-compiler": "^2.6.10"
   }
 }
