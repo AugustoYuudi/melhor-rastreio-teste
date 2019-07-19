@@ -1,29 +1,23 @@
 # melhor-rastreio-teste
 
-## Project setup
+## Rodando o projeto
 ```
 npm install
-```
 
-### Compiles and hot-reloads for development
-```
 npm run serve
 ```
 
-### Compiles and minifies for production
+## Navegando no projeto
+
 ```
-npm run build
+O projeto irá rodar em localhost:8080
+
+A rota '/' está a parte do teste com foco em design.
+
+A rota '/rastreio-produto' está com a parte do teste com foco no script. 
+
 ```
 
-### Run your tests
-```
-npm run test
-```
+## Horas gastas
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Aproximadamente 2 horas por dia durante 6 dias (13, 14, 15, 16, 17 e 19 de Julho).
