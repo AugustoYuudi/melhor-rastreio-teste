@@ -3,7 +3,7 @@
         <div class="upper">
             <RastreioHeader :tracking=product.data.tracking></RastreioHeader>
 
-            <RastreioInfo :data=product.data></RastreioInfo>
+            <RastreioInfo :events=product.data.events :status=product.data.status></RastreioInfo>
         </div>
         <RastreioFooter></RastreioFooter>
     </div>
