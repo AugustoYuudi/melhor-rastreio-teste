@@ -10,11 +10,18 @@
 .navbar
     max-width 100vw
     width 100vw
-    // overflow hidden
     .navbar__logo
         margin 1rem 0 1rem 1rem
         width 25vw
         max-width 100px
+
+        +above(768px)
+            max-width 150px
+            margin 1rem 0 0 2rem
+
+        +above(1024px)
+            margin 2rem 0 0 3.5rem
+            width 170px
 </style>
 
 <script>
