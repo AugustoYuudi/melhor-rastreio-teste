@@ -1,8 +1,6 @@
 # Teste de admissao para a Melhor Envio como frontend
 
-
-## Telas originais requisitados
-<iframe style="border: none;" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FDCAD1wT83kF8wfj7UUaTilZn%2FMelhor-Rastreio%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
+![Tela Mobile](https://github.com/AugustoYuudi/Melhor-Rastreio/blob/master/src/assets/img/01.png)
 
 
 ## Detalhes da proposta
@@ -17,7 +15,7 @@ Foi estipulado um prazo de 1 semana para realização do projeto. No escopo do p
 ## Detalhes da implementacao
 
     * A base do projeto foi criado com Vue CLI
-    * Foi adicionado uma configuração adicinal (vue.config.js) à estrutura do Vue para globalizar alguns arquivos Stylus de uso geral (reset, cores, fontes, mixins)
+    * Configuração adicinal (vue.config.js) na estrutura do Vue para globalizar alguns arquivos Stylus (reset, cores, fontes, mixins)
     * Foi utilizado Vue Router para manusear as 2 diferentes telas
     * Foi utilizado Vuex para controle das funções de requisições HTTP
     * Foi utilizado Rupture.css para controle das media queries
